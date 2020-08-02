@@ -5,7 +5,7 @@ Home: https://github.com/jdb78/lipo
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Global, derivative-free optimization
 
