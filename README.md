@@ -5,9 +5,13 @@ Home: https://github.com/jdb78/lipo
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/lipo-feedstock/blob/master/LICENSE.txt)
 
 Summary: Global, derivative-free optimization
+
+Development: https://github.com/jdb78/lipo
+
+Documentation: https://github.com/jdb78/lipo
 
 "LIPO is a package for derivative-free, global optimization. Is based on the dlib package and provides wrappers around its optimization routine."
 
