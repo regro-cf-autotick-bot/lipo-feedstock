@@ -1,5 +1,5 @@
 {% set name = "lipo" %}
-{% set version = "1.2.1" %}
+{% set version = "1.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 981706fb20c21c617341996e2e57dec4a369d57aab5bd716431195a6e9b15ebe
+  sha256: 8de6eb717d64be72b6e66fece6da88d3dd17e07836c5eb4bd0c844ba72785d31
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
@@ -38,7 +38,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: "Global, derivative-free optimization"
+  summary: Global, derivative-free optimization
   description: |
     "LIPO is a package for derivative-free, global optimization. Is based on the dlib package and provides wrappers around its optimization routine."
   doc_url: https://github.com/jdb78/lipo
